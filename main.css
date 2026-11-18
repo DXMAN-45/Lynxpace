@@ -139,6 +139,12 @@ h1{
     transform: scale(90%);
     /* background-color: rgb(0, 157, 255); */
 }
+.logo1 img,
+.logo2 img {
+    width: clamp(40px, 5vw, 65px);
+    height: auto;
+    object-fit: contain;
+}
 
 footer{
     position: absolute;
