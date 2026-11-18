@@ -113,6 +113,11 @@ h3{
     h3::before {
     background-size: cover;
 }
-
+.logo1 img,
+.logo2 img {
+    width: clamp(40px, 5vw, 65px);
+    height: auto;
+    object-fit: contain;
+}
 }
 
