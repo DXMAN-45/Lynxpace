@@ -37,6 +37,4 @@ nav_e[3].addEventListener("click", () => {
       behavior: "smooth" // smooth scroll effect
     });
   });
-nav_e[4].addEventListener("click",()=>{
-    window.open("http://www.hutchtransportation.com/", "_blank");
-});
+
